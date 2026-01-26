@@ -27837,3 +27837,14 @@ button,
   right: 80px;
   bottom: -20px;
 }
+
+/**------------------------------------------------------------------
+ * 最新消息側邊欄控制圖片比例
+ */
+.post-img {
+     width: 80px;
+    aspect-ratio: 1 / 1;   /* 強制正方形 */
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 5px;
+}
