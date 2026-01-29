@@ -9488,13 +9488,13 @@ tr:first-child {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 60%;
   left: 0;
   bottom: 0;
   pointer-events: none;
   z-index: 1;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(0deg, rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(0deg, rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%);
   opacity: 92%;
 }
 .rts-blog-section .blog-item .blog-picture img {
@@ -9504,11 +9504,11 @@ tr:first-child {
   transition: transform 400ms, -webkit-transform 400ms;
 }
 .rts-blog-section .blog-item .contents {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 40px;
-  z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 .rts-blog-section .blog-item .contents .blog-catagory {
   font-size: 12px;
@@ -24729,7 +24729,7 @@ tr:first-child {
   margin: 0;
 }
 .rts-gallery-section.home-four .filterd-items .gallery-grid .item.small-post .gallery-picture {
-  background: url(../images/blog/news16.jpg);
+  background: url(../images/resource/teams.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
