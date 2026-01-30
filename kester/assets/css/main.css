@@ -27848,7 +27848,9 @@ button,
     object-fit: cover;
     border-radius: 5px;
 }
-
+/**------------------------------------------------------------------
+ * yt影片
+ */
 .video-thumb {
     position: relative;
     display: block;
@@ -27883,4 +27885,63 @@ button,
     border-left: 18px solid white;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
+}
+
+/**------------------------------------------------------------------
+ * 字卡
+ */
+ /* 外層容器：確保內容橫向排列並置中 */
+.match-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* 標誌與文字之間的間距 */
+    padding: 40px;
+    background-color: #f8f8f8; /* 淺灰色背景 */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* 標誌大小控制 */
+.match-wrapper .logo img {
+    width: 120px; /* 根據需求調整大小 */
+    height: auto;
+}
+
+/* 中間文字區域內容堆疊 */
+.match-wrapper .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 日期樣式 */
+.match-wrapper .date {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* 時間樣式：加粗 */
+.match-wrapper .time {
+    font-size: 32px;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+}
+
+/* 隊伍名稱樣式：淺藍色、全大寫 */
+.match-wrapper .team {
+    font-size: 32px;
+    color: #7FB3D5; /* 圖片中的淺藍色 */
+    text-transform: uppercase; /* 強制轉大寫 */
+    margin-top: 5px;
+}
+
+/* 針對 VS 字樣的小寫化處理 */
+.match-wrapper .team span {
+    text-transform: lowercase;
+    margin: 0 10px;
+    font-weight: normal;
 }
