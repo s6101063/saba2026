@@ -953,7 +953,7 @@ i {
 }
 .section-title-area .section-title {
   position: relative;
-  font-size: 48px;
+  
   font-weight: 700;
   margin-bottom: 30px;
   color: #111111;
@@ -14292,7 +14292,7 @@ tr:first-child {
 }
 
 .rts-trending-news-section2 {
-  background: #111111;
+  background: #c2291d;
 }
 .rts-trending-news-section2 .section-inner .section-title-area .section-title {
   color: #fff;
@@ -24700,7 +24700,7 @@ tr:first-child {
 }
 .rts-team-section.home-four .team-section-inner .team-wraper .profile {
   text-align: center;
-  background: #111111;
+  background: #2f4ffc;
   padding: 15px 0;
 }
 .rts-team-section.home-four .team-section-inner .team-wraper .profile .name {
@@ -26598,7 +26598,7 @@ tr:first-child {
 
 .rts-player-static.nfl {
   padding: 100px 0;
-  background: url(../images/background/nfl-court.jpg);
+  background: url(../images/background/green.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -27847,4 +27847,40 @@ button,
     overflow: hidden;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.video-thumb {
+    position: relative;
+    display: block;
+}
+
+.video-thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 播放 icon */
+.video-thumb .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+}
+
+.video-thumb .play-icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 18px solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
 }
