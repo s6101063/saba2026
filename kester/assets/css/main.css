@@ -27895,11 +27895,12 @@ button,
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px; /* 標誌與文字之間的間距 */
+    gap: 30px; /* 標誌與文字之間的間距 */
     padding: 40px;
     background-color: #f8f8f8; /* 淺灰色背景 */
     border-radius: 8px;
     text-align: center;
+    
 }
 
 /* 標誌大小控制 */
@@ -27917,7 +27918,7 @@ button,
 
 /* 日期樣式 */
 .match-wrapper .date {
-    font-size: 28px;
+    font-size: 14px;
     color: #333;
     margin: 0;
     font-family: sans-serif;
@@ -27925,7 +27926,7 @@ button,
 
 /* 時間樣式：加粗 */
 .match-wrapper .time {
-    font-size: 32px;
+    font-size: 16px;
     font-weight: 800;
     color: #000;
     margin: 0;
@@ -27933,7 +27934,7 @@ button,
 
 /* 隊伍名稱樣式：淺藍色、全大寫 */
 .match-wrapper .team {
-    font-size: 32px;
+    font-size: 16px;
     color: #7FB3D5; /* 圖片中的淺藍色 */
     text-transform: uppercase; /* 強制轉大寫 */
     margin-top: 5px;
@@ -27942,6 +27943,39 @@ button,
 /* 針對 VS 字樣的小寫化處理 */
 .match-wrapper .team span {
     text-transform: lowercase;
-    margin: 0 10px;
     font-weight: normal;
+}
+/* 預設：手機版 (1欄) */
+.match-grid-layout {
+    display: grid;
+    grid-template-columns: 1fr; /* 只有一列 */
+    gap: 20px;                 /* 卡片之間的間距 */
+    padding: 20px 0;
+}
+
+/* 當螢幕寬度大於 1200px (平板與桌機) */
+@media (min-width: 1200px) {
+    .match-grid-layout {
+        grid-template-columns: repeat(3, 1fr); /* 強制三列等寬 */
+    }
+}
+
+/**------------------------------------------------------------------
+分组积分榜表格
+ **/
+ .product-title-area {
+    display: ruby;          /* 開啟彈性佈局 */
+    align-items: center;    /* 關鍵：讓內容垂直置中對齊 */
+    gap: 10px;              /* 圖片與文字之間的間距 */
+}
+
+.team-icon {
+    height: 24px;           /* 設定圖片高度，建議與字體大小 (font-size) 接近 */
+    width: auto;            /* 寬度自動縮放，避免變形 */
+    object-fit: contain;    /* 確保圖片比例正確 */
+}
+
+.player-name {
+    margin-bottom: 0;       /* 移除 h4 可能自帶的下邊距，避免視覺不平衡 */
+    white-space: nowrap;    /* 防止隊伍名稱折行 */
 }
