@@ -18558,10 +18558,10 @@ tr:first-child {
           filter: drop-shadow(-15px 15px 20px rgb(190, 190, 190));
 }
 .rts-champion-section .filter-button-group .filter-btn {
-  margin-right: 15px;
+  margin-right: 10px;
   background: rgb(255, 255, 255);
-  height: 60px;
-  padding: 0 35px;
+  height: 40px;
+  padding: 0 10px;
   border-radius: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18569,7 +18569,7 @@ tr:first-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   color: #111111;
   font-weight: 600;
@@ -27978,4 +27978,18 @@ button,
 .player-name {
     margin-bottom: 0;       /* 移除 h4 可能自帶的下邊距，避免視覺不平衡 */
     white-space: nowrap;    /* 防止隊伍名稱折行 */
+}
+/**------------------------------------------------------------------
+分组积分榜首頁表格
+ **/
+/* 只針對積分表區域內的第一欄進行對齊 */
+.rts-point-table-section .table td:first-child, 
+.rts-point-table-section .table th:first-child {
+    text-align: left ;
+    padding-left: 20px !important;
+}
+
+/* 同時確保該區塊內的隊伍名稱區塊也是靠左 */
+.rts-point-table-section .product-title-area {
+    justify-content: flex-start !important;
 }

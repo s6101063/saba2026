@@ -97,9 +97,9 @@
                                             </li>
                                             <li class="has-dropdown"><a class="menu-item" href="standings.html">分组积分榜</a>
                                             </li>
-                                            <li><a class="menu-item" href="contact.html">预测文章</a>
+                                            <li><a class="menu-item" href="saba-index.html#predict">预测文章</a>
                                             </li>
-                                            <li><a class="menu-item" href="contact.html">最佳球员榜</a>
+                                            <li><a class="menu-item" href="saba-index.html#best-player">最佳球员榜</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -124,7 +124,7 @@
             <div class="offset-sidebar">
                 <button class="slide-bar-close ml--30"><i class="fal fa-times"></i></button>
                 <div class="offset-widget offset-logo mb-30">
-                    <a href="index.html">
+                    <a href="saba-index.html">
                         <img src="assets/images/logo_cn_w.png" alt="logo">
                     </a>
                 </div>
@@ -133,14 +133,14 @@
             <nav class="side-mobile-menu side-mobile-menu1">
                 <ul id="mobile-menu-active">
                     <li class="has-dropdown firstlvl">
-                        <a class="mm-link" href="index.html">首页</a>
+                        <a class="mm-link" href="saba-index.html">首页</a>
                     </li>
-                    <li><a class="mm-link" href="about.html">最新消息</a></li>  
-                    <li><a class="mm-link" href="contact.html">赛程表</a></li>
-                    <li><a class="mm-link" href="contact.html">视频</a></li>
-                    <li><a class="mm-link" href="contact.html">分组积分榜</a></li>
-                    <li><a class="mm-link" href="contact.html">预测文章</a></li>
-                    <li><a class="mm-link" href="contact.html">最佳球员榜</a></li>
+                    <li><a class="mm-link" href="new.html">最新消息</a></li>  
+                    <li><a class="mm-link" href="fixtures.html">赛程表</a></li>
+                    <li><a class="mm-link" href="video.html">视频</a></li>
+                    <li><a class="mm-link" href="standings.html">分组积分榜</a></li>
+                    <li><a class="mm-link" href="saba-index.html#predict">预测文章</a></li>
+                    <li><a class="mm-link" href="saba-index.html#best-player">最佳球员榜</a></li>
                 </ul>
             </nav>
             <!-- side-mobile-menu end -->
@@ -176,11 +176,11 @@
                 <div class="row" style="--bs-gutter-y: 1.875rem;">
                     <div class="col-12 col-md-4 col-lg-4">
                         <div class="blog-item">
-                            <div class="blog-picture"><img src="assets/images/resource/teams.jpg" alt=""></div>
+                            <div class="blog-picture"><a href="teams.html" class="blog-title"><img src="assets/images/resource/teams.jpg" alt=""></a></div>
                             <div class="contents-wrapper">
                                 <div class="contents">
                                     <div class="d-block">                                        
-                                        <a href="blog-details.html" class="blog-title">队伍介绍</a>
+                                        <a href="teams.html" class="blog-title">队伍介绍</a>
                                     </div>
                                     
                                 </div>
@@ -194,7 +194,7 @@
                                 <div class="contents">
                                     <div class="d-block">
                                         
-                                        <a href="blog-details.html" class="blog-title">明星球员</a>
+                                        <a href="star-player.html" class="blog-title">明星球员</a>
                                     </div>
                                     
                                 </div>
@@ -208,7 +208,7 @@
                                 <div class="contents">
                                     <div class="d-block">
                                         
-                                        <a href="blog-details.html" class="blog-title">场地介绍</a>
+                                        <a href="stadium.html" class="blog-title">场地介绍</a>
                                     </div>
                                     
                                 </div>
@@ -224,7 +224,7 @@
                                 <div class="contents">
                                     <div class="d-block">
                                         
-                                        <a href="blog-details.html" class="blog-title">吉祥物介绍</a>
+                                        <a href="mascot.html" class="blog-title">吉祥物介绍</a>
                                     </div>
                                     
                                 </div>
@@ -238,7 +238,7 @@
                                 <div class="contents">
                                     <div class="d-block">
                                         
-                                        <a href="blog-details.html" class="blog-title">特殊紀錄</a>
+                                        <a href="special-record.html" class="blog-title">特殊紀錄</a>
                                     </div>
                                     
                                 </div>
@@ -252,7 +252,7 @@
                                 <div class="contents">
                                     <div class="d-block">
                                         
-                                        <a href="blog-details.html" class="blog-title">比赛用球</a>
+                                        <a href="competition-ball.html" class="blog-title">比赛用球</a>
                                     </div>
                                     
                                 </div>
@@ -407,557 +407,540 @@
     <section class="rts-player-static baseball nfl">
         <div class="container">
             <div class="section-inner">
-                <div class="section-title-area section-ttile-area2 ">
-                    <h1 class="section-title">分组积分榜</h1>                    
-                </div>
-                <div class="row" style="margin-bottom:2%;">
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: green;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+            <div class="section-title-area section-ttile-area2 ">
+                            <h1 class="section-title">分组积分榜</h1> 
+            </div>     
+            <div class="row">
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white;background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: green; color: white;">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: blue;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: red;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="row" style="margin-bottom:2%;">
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: green;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: blue;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="left-side-content" style="background: #524f4f;">
-                            <div class="content-area">
-                                <div class="stat-table">
-                                    <div class="table-area">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr class="head-tr"style="background: red;">
-                                                    <th scope="col">名次</th>
-                                                    <th scope="col">组别A</th>
-                                                    <th scope="col">胜</th>
-                                                    <th scope="col">负</th>
-                                                    <th scope="col">平手</th>
-                                                    <th scope="col">+/-</th>
-                                                    <th scope="col">积分</th>                                                
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><span class="position-number">1</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-19.svg" alt=""> DRAGONS</span></td>
-                                                    <td><span class="win-count">9</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                                                                       
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">2</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-20.svg" alt=""> WESTON</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">3</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-21.svg" alt=""> BULLS</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">3</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">6</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">4</span></td>
-                                                    <td><span class=""><img src="assets/images/icons/club-22.svg" alt=""> MANHUT</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">7</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">5</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-23.svg" alt=""> MILAND</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">4</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">8</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                   
-                                                </tr>
-                                                <tr>
-                                                    <td><span class="position-number">6</span></td>
-                                                    <td><span class="player"><img src="assets/images/icons/club-24.svg" alt=""> INTERKO</span></td>
-                                                    <td><span class="win-count">2</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    <td><span class="win-count">0</span></td>
-                                                    <td><span class="win-count">1</span></td>
-                                                    <td><span class="win-count">5</span></td>
-                                                    
-                                                    
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
                 </div>
             </div>
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white;background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: blue; color: white;">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
+                </div>
+            </div>
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white;background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: red; color: white;">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
+                </div>
+            </div>
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white; background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: rgb(209, 159, 6); color: rgb(255, 255, 255);">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
+                </div>
+            </div>
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white;background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: gray; color: rgb(255, 255, 255);">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
+                </div>
+            </div>
+            <div class="filterd-items col-12 col-md-6 col-lg-4 ">
+                <div class="gallery-grid">
+                    <div class="rts-point-table-section">
+                        
+                            <div class="table-area table-full">
+                <table class="table table-bordered" style="border: 1px solid white;background=white;background: white;"">
+                    <thead class="thead-dark">
+                    </thead>
+                    <tbody>
+                        
+                           
+                        </tr>
+                        <tr style="background-color: black; color: white;">
+                            
+                            <th scope="col" style="text-align: left; padding-left: 15px;">組別A</th>                            
+                            <th scope="col">胜</th>
+                            <th scope="col">平</th>
+                            <th scope="col">負</th>
+                            <th scope="col">+/-</th>
+                            <th scope="col">積分</th>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/gfermany.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">德国</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">30</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/scotland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">苏格兰</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">10</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/switzerland.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">瑞士</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">35</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                        <tr>
+                           
+                            <td style="text-align: left; padding-left: 15px;">
+                                <div class="product-title-area">
+                                    <img src="assets/images/nation/hungary.svg" alt="" class="team-icon">
+                                    <h4 class="player-name">匈牙利</h4>
+                                </div>
+                            </td>
+                            <td><span class="win-count">19</span></td>
+                            <td><span class="draw-count">02</span></td>
+                            <td><span class="lose-count">01</span></td>
+                            <td><span class="due-count">03</span></td>
+                            <td><span class="pts-count">60</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            
+            
+
+    </div>
+                </div>
+            </div>
+            <div class="section-title-area section-ttile-area2 "style="text-align: center;">
+                <a href="standings.html" class="full-table-btn more-btn btn">了解更多</a>
+            </div> 
+            </div>
+            
+            </div>
         </div>
+        
     </section>
     <!--================= 分组积分榜 Section End Here =================-->
 
@@ -965,6 +948,9 @@
     <section class="rts-trending-news-section2 pb--100 pt--100">
         <div class="container">
             <div class="section-inner"> 
+                <div class="section-title-area section-ttile-area2">
+                    <h1 class="section-title" id="best-player">最佳球员榜</h1>
+                </div>
                 <div class="row"> 
                 <div class="col-lg-6">              
                    <div class="premier-league-area side-table-item side-item" >
@@ -972,10 +958,12 @@
                                 <h3 class="side-content-title">最佳射手</h3>
                                 <table class="table table-bordered">
                                     <thead>
-                                        <th scope="col">名次</th>
+                                        <tr class="head-tr">
+                                            <th scope="col">名次</th>
                                             <th scope="col">球员</th>
                                             <th scope="col">得分</th>
-                                            <th scope="col">助攻</th>
+                                            <th scope="col">助攻</th>                                            
+                                        </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
@@ -1046,7 +1034,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="score.html" class="full-table-btn more-btn btn">VIEW FULL TABLE</a>
+                                
                             </div>
                         </div>
                 </div>
@@ -1133,7 +1121,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <a href="score.html" class="full-table-btn more-btn btn">VIEW FULL TABLE</a>
+                                
                             </div>
                         </div>
                 </div>
@@ -1143,12 +1131,12 @@
     </section>
     <!--================= 最佳射手助攻 Section End Here =================-->
     
-    <!--================= 沙爹原创 Section Start Here =================-->
+    <!--================= 預測文章 Section Start Here =================-->
     <section class="rts-blog-section3 section4 section-gap">
         <div class="container">
             <div class="section-inner">
                 <div class="section-title-area section-ttile-area2">
-                    <h1 class="section-title">预测文章</h1>
+                    <h1 class="section-title" id="predict">预测文章</h1>
                 </div>
                 <div class="blog-area">
                     <div class="row">
@@ -1226,7 +1214,7 @@
             </div>
         </div>
     </section>
-    <!--================= 沙爹原创 Section End Here =================-->
+    <!--================= 預測文章 Section End Here =================-->
     <!--================= 体育视频 Section End Here =================-->
     
     <!--================= 体育视频 Section End Here =================-->
@@ -1235,113 +1223,7 @@
     
 
 
-    <!--================= 球員介紹 Section Start Here =================-->
-    <div class="rts-team-section home-four baseball">
-        <div class="container">
-            <div class="section-title-area section-title-area1 mb--50">
-                <h1 class="sction-title">球員介紹</h1>
-                <div class="swiper-slider-btn">
-                    <div class="slider-btn slide-prev">
-                        <i class="fal fa-chevron-left"></i>
-                    </div>
-                    <div class="slider-btn slide-next">
-                        <i class="fal fa-chevron-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="team-section-inner">
-                <div class="swiper rts-teamSlider2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="team-wraper">
-                                <div class="player-card">
-                                    <a class="image" href="team-details.html"><img src="assets/images/team/team14.png" alt=""></a>
-                                    <ul class="social-area">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#">
-                                                <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M14.5781 1.66406C16.3828 4.34375 17.2852 7.35156 16.957 10.8242C16.957 10.8242 16.957 10.8516 16.9297 10.8516C15.7266 11.7539 14.3594 12.4375 12.9102 12.875C12.8828 12.9023 12.8828 12.875 12.8555 12.875C12.5547 12.4375 12.2812 12 12.0352 11.5352C12.0352 11.5078 12.0352 11.4805 12.0625 11.4531C12.5 11.2891 12.9102 11.0977 13.3203 10.8516C13.3477 10.8516 13.3477 10.7969 13.3203 10.7695C13.2383 10.7148 13.1562 10.6602 13.0742 10.5781C13.0469 10.5781 13.0469 10.5781 13.0195 10.5781C10.4219 11.7812 7.57812 11.7812 4.95312 10.5781C4.92578 10.5781 4.89844 10.5781 4.89844 10.5781C4.81641 10.6602 4.73438 10.7148 4.65234 10.7695C4.59766 10.7969 4.625 10.8516 4.65234 10.8516C5.03516 11.0977 5.47266 11.2891 5.91016 11.4531C5.9375 11.4805 5.9375 11.5078 5.9375 11.5352C5.69141 12 5.41797 12.4375 5.11719 12.875C5.08984 12.875 5.0625 12.9023 5.0625 12.875C3.61328 12.4375 2.24609 11.7539 1.04297 10.8516C1.01562 10.8516 1.01562 10.8242 1.01562 10.8242C0.742188 7.81641 1.31641 4.78125 3.39453 1.66406C3.39453 1.66406 3.39453 1.66406 3.42188 1.66406C4.46094 1.17188 5.55469 0.84375 6.67578 0.652344C6.70312 0.625 6.73047 0.652344 6.73047 0.652344C6.89453 0.925781 7.03125 1.22656 7.14062 1.5C8.37109 1.30859 9.60156 1.30859 10.832 1.5C10.9414 1.22656 11.0781 0.925781 11.2422 0.652344C11.2422 0.652344 11.2695 0.625 11.2969 0.652344C12.418 0.84375 13.5117 1.17188 14.5508 1.66406C14.5781 1.66406 14.5781 1.66406 14.5781 1.66406ZM6.32031 8.99219C7.11328 8.99219 7.76953 8.25391 7.76953 7.37891C7.76953 6.47656 7.14062 5.76562 6.32031 5.76562C5.52734 5.76562 4.87109 6.47656 4.87109 7.37891C4.87109 8.25391 5.52734 8.99219 6.32031 8.99219ZM11.6523 8.99219C12.4727 8.99219 13.1016 8.25391 13.1016 7.37891C13.1289 6.47656 12.4727 5.76562 11.6523 5.76562C10.8594 5.76562 10.2305 6.47656 10.2305 7.37891C10.2305 8.25391 10.8594 8.99219 11.6523 8.99219Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="profile">
-                                    <a href="team-details.html" class="name">DAVID WILLIAM</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-wraper">
-                                <div class="player-card">
-                                    <a class="image" href="team-details.html"><img src="assets/images/team/team15.png" alt=""></a>
-                                    <ul class="social-area">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#">
-                                            <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.5781 1.66406C16.3828 4.34375 17.2852 7.35156 16.957 10.8242C16.957 10.8242 16.957 10.8516 16.9297 10.8516C15.7266 11.7539 14.3594 12.4375 12.9102 12.875C12.8828 12.9023 12.8828 12.875 12.8555 12.875C12.5547 12.4375 12.2812 12 12.0352 11.5352C12.0352 11.5078 12.0352 11.4805 12.0625 11.4531C12.5 11.2891 12.9102 11.0977 13.3203 10.8516C13.3477 10.8516 13.3477 10.7969 13.3203 10.7695C13.2383 10.7148 13.1562 10.6602 13.0742 10.5781C13.0469 10.5781 13.0469 10.5781 13.0195 10.5781C10.4219 11.7812 7.57812 11.7812 4.95312 10.5781C4.92578 10.5781 4.89844 10.5781 4.89844 10.5781C4.81641 10.6602 4.73438 10.7148 4.65234 10.7695C4.59766 10.7969 4.625 10.8516 4.65234 10.8516C5.03516 11.0977 5.47266 11.2891 5.91016 11.4531C5.9375 11.4805 5.9375 11.5078 5.9375 11.5352C5.69141 12 5.41797 12.4375 5.11719 12.875C5.08984 12.875 5.0625 12.9023 5.0625 12.875C3.61328 12.4375 2.24609 11.7539 1.04297 10.8516C1.01562 10.8516 1.01562 10.8242 1.01562 10.8242C0.742188 7.81641 1.31641 4.78125 3.39453 1.66406C3.39453 1.66406 3.39453 1.66406 3.42188 1.66406C4.46094 1.17188 5.55469 0.84375 6.67578 0.652344C6.70312 0.625 6.73047 0.652344 6.73047 0.652344C6.89453 0.925781 7.03125 1.22656 7.14062 1.5C8.37109 1.30859 9.60156 1.30859 10.832 1.5C10.9414 1.22656 11.0781 0.925781 11.2422 0.652344C11.2422 0.652344 11.2695 0.625 11.2969 0.652344C12.418 0.84375 13.5117 1.17188 14.5508 1.66406C14.5781 1.66406 14.5781 1.66406 14.5781 1.66406ZM6.32031 8.99219C7.11328 8.99219 7.76953 8.25391 7.76953 7.37891C7.76953 6.47656 7.14062 5.76562 6.32031 5.76562C5.52734 5.76562 4.87109 6.47656 4.87109 7.37891C4.87109 8.25391 5.52734 8.99219 6.32031 8.99219ZM11.6523 8.99219C12.4727 8.99219 13.1016 8.25391 13.1016 7.37891C13.1289 6.47656 12.4727 5.76562 11.6523 5.76562C10.8594 5.76562 10.2305 6.47656 10.2305 7.37891C10.2305 8.25391 10.8594 8.99219 11.6523 8.99219Z" fill="white"/>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div class="profile">
-                                    <a href="team-details.html" class="name">Robert Horry</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-wraper">
-                                <div class="player-card">
-                                    <a class="image" href="team-details.html"><img src="assets/images/team/team16.png" alt=""></a>
-                                    <ul class="social-area">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#">
-                                            <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.5781 1.66406C16.3828 4.34375 17.2852 7.35156 16.957 10.8242C16.957 10.8242 16.957 10.8516 16.9297 10.8516C15.7266 11.7539 14.3594 12.4375 12.9102 12.875C12.8828 12.9023 12.8828 12.875 12.8555 12.875C12.5547 12.4375 12.2812 12 12.0352 11.5352C12.0352 11.5078 12.0352 11.4805 12.0625 11.4531C12.5 11.2891 12.9102 11.0977 13.3203 10.8516C13.3477 10.8516 13.3477 10.7969 13.3203 10.7695C13.2383 10.7148 13.1562 10.6602 13.0742 10.5781C13.0469 10.5781 13.0469 10.5781 13.0195 10.5781C10.4219 11.7812 7.57812 11.7812 4.95312 10.5781C4.92578 10.5781 4.89844 10.5781 4.89844 10.5781C4.81641 10.6602 4.73438 10.7148 4.65234 10.7695C4.59766 10.7969 4.625 10.8516 4.65234 10.8516C5.03516 11.0977 5.47266 11.2891 5.91016 11.4531C5.9375 11.4805 5.9375 11.5078 5.9375 11.5352C5.69141 12 5.41797 12.4375 5.11719 12.875C5.08984 12.875 5.0625 12.9023 5.0625 12.875C3.61328 12.4375 2.24609 11.7539 1.04297 10.8516C1.01562 10.8516 1.01562 10.8242 1.01562 10.8242C0.742188 7.81641 1.31641 4.78125 3.39453 1.66406C3.39453 1.66406 3.39453 1.66406 3.42188 1.66406C4.46094 1.17188 5.55469 0.84375 6.67578 0.652344C6.70312 0.625 6.73047 0.652344 6.73047 0.652344C6.89453 0.925781 7.03125 1.22656 7.14062 1.5C8.37109 1.30859 9.60156 1.30859 10.832 1.5C10.9414 1.22656 11.0781 0.925781 11.2422 0.652344C11.2422 0.652344 11.2695 0.625 11.2969 0.652344C12.418 0.84375 13.5117 1.17188 14.5508 1.66406C14.5781 1.66406 14.5781 1.66406 14.5781 1.66406ZM6.32031 8.99219C7.11328 8.99219 7.76953 8.25391 7.76953 7.37891C7.76953 6.47656 7.14062 5.76562 6.32031 5.76562C5.52734 5.76562 4.87109 6.47656 4.87109 7.37891C4.87109 8.25391 5.52734 8.99219 6.32031 8.99219ZM11.6523 8.99219C12.4727 8.99219 13.1016 8.25391 13.1016 7.37891C13.1289 6.47656 12.4727 5.76562 11.6523 5.76562C10.8594 5.76562 10.2305 6.47656 10.2305 7.37891C10.2305 8.25391 10.8594 8.99219 11.6523 8.99219Z" fill="white"/>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div class="profile">
-                                    <a href="team-details.html" class="name">John Havlicek</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-wraper">
-                                <div class="player-card">
-                                    <a class="image" href="team-details.html"><img src="assets/images/team/team17.png" alt=""></a>
-                                    <ul class="social-area">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#">
-                                            <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.5781 1.66406C16.3828 4.34375 17.2852 7.35156 16.957 10.8242C16.957 10.8242 16.957 10.8516 16.9297 10.8516C15.7266 11.7539 14.3594 12.4375 12.9102 12.875C12.8828 12.9023 12.8828 12.875 12.8555 12.875C12.5547 12.4375 12.2812 12 12.0352 11.5352C12.0352 11.5078 12.0352 11.4805 12.0625 11.4531C12.5 11.2891 12.9102 11.0977 13.3203 10.8516C13.3477 10.8516 13.3477 10.7969 13.3203 10.7695C13.2383 10.7148 13.1562 10.6602 13.0742 10.5781C13.0469 10.5781 13.0469 10.5781 13.0195 10.5781C10.4219 11.7812 7.57812 11.7812 4.95312 10.5781C4.92578 10.5781 4.89844 10.5781 4.89844 10.5781C4.81641 10.6602 4.73438 10.7148 4.65234 10.7695C4.59766 10.7969 4.625 10.8516 4.65234 10.8516C5.03516 11.0977 5.47266 11.2891 5.91016 11.4531C5.9375 11.4805 5.9375 11.5078 5.9375 11.5352C5.69141 12 5.41797 12.4375 5.11719 12.875C5.08984 12.875 5.0625 12.9023 5.0625 12.875C3.61328 12.4375 2.24609 11.7539 1.04297 10.8516C1.01562 10.8516 1.01562 10.8242 1.01562 10.8242C0.742188 7.81641 1.31641 4.78125 3.39453 1.66406C3.39453 1.66406 3.39453 1.66406 3.42188 1.66406C4.46094 1.17188 5.55469 0.84375 6.67578 0.652344C6.70312 0.625 6.73047 0.652344 6.73047 0.652344C6.89453 0.925781 7.03125 1.22656 7.14062 1.5C8.37109 1.30859 9.60156 1.30859 10.832 1.5C10.9414 1.22656 11.0781 0.925781 11.2422 0.652344C11.2422 0.652344 11.2695 0.625 11.2969 0.652344C12.418 0.84375 13.5117 1.17188 14.5508 1.66406C14.5781 1.66406 14.5781 1.66406 14.5781 1.66406ZM6.32031 8.99219C7.11328 8.99219 7.76953 8.25391 7.76953 7.37891C7.76953 6.47656 7.14062 5.76562 6.32031 5.76562C5.52734 5.76562 4.87109 6.47656 4.87109 7.37891C4.87109 8.25391 5.52734 8.99219 6.32031 8.99219ZM11.6523 8.99219C12.4727 8.99219 13.1016 8.25391 13.1016 7.37891C13.1289 6.47656 12.4727 5.76562 11.6523 5.76562C10.8594 5.76562 10.2305 6.47656 10.2305 7.37891C10.2305 8.25391 10.8594 8.99219 11.6523 8.99219Z" fill="white"/>
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    </ul>
-                                </div>
-                                <div class="profile">
-                                    <a href="team-details.html" class="name">Sam Jones</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--================= 球員介紹 Section End Here =================-->
+    
 
     
 
