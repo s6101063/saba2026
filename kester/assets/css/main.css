@@ -26369,7 +26369,7 @@ tr:first-child {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 @media (max-width: 991px) {
   .rts-match-result-section.nfl .section-inner .result {
@@ -26465,12 +26465,12 @@ tr:first-child {
   }
 }
 .rts-match-result-section.nfl .section-inner .result .goal {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+  width: 60px;
+  
+  line-height: 60px;
   color: #FFF;
   font-family: "Oswald", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -27854,6 +27854,9 @@ button,
 .video-thumb {
     position: relative;
     display: block;
+    
+    width: 100%; /* 或固定寬度 */
+    position: relative;
 }
 
 .video-thumb img {
@@ -27993,3 +27996,4 @@ button,
 .rts-point-table-section .product-title-area {
     justify-content: flex-start !important;
 }
+
